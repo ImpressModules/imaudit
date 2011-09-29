@@ -1,0 +1,14 @@
+<{if $imaudit_review_title}>
+	<h1><{$imaudit_review_title}></h1>
+<{/if}>
+<{if $imaudit_review_info}>
+	<p><{$imaudit_review_info}></p>
+<{/if}>
+
+<{if $imaudit_review_table}>
+	<{$imaudit_review_table}>
+<{/if}>
+
+<{if $addreview}>
+	<{includeq file='db:system_common_form.html' form=$addreview}>
+<{/if}>

@@ -1,0 +1,14 @@
+<{if $imaudit_changeset_title}>
+	<h1><{$imaudit_changeset_title}></h1>
+<{/if}>
+<{if $imaudit_changeset_info}>
+	<p><{$imaudit_changeset_info}></p>
+<{/if}>
+
+<{if $imaudit_changeset_table}>
+	<{$imaudit_changeset_table}>
+<{/if}>
+
+<{if $addchangeset}>
+	<{includeq file='db:system_common_form.html' form=$addchangeset}>
+<{/if}>

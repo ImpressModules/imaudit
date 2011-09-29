@@ -1,0 +1,14 @@
+<{if $imaudit_branch_title}>
+	<h1><{$imaudit_branch_title}></h1>
+<{/if}>
+<{if $imaudit_branch_info}>
+	<p><{$imaudit_branch_info}></p>
+<{/if}>
+
+<{if $imaudit_branch_table}>
+	<{$imaudit_branch_table}>
+<{/if}>
+
+<{if $addbranch}>
+	<{includeq file='db:system_common_form.html' form=$addbranch}>
+<{/if}>

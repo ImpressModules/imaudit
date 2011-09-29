@@ -1,0 +1,34 @@
+<!-- Thank you for keeping this line in the template :-) //-->
+<!-- <{$ref_smartfactory}> //-->
+<!-- Thank you for keeping this line in the template :-) //-->
+
+<div class="imaudit_headertable">
+	<div id="imaudit_header_left">
+		<{if $imaudit_module_home}>
+			<span class="imaudit_modulename"><{$imaudit_module_home}></span>
+		<{/if}>
+		<{if $imaudit_category_path}>
+			<span class="imaudit_breadcrumb">
+			<{if $imaudit_module_home}>
+				&gt;
+			<{/if}>
+		  	<{$imaudit_category_path}></span>
+		<{/if}>
+	</div>
+	<div id="imaudit_header_right">
+	<{if $imaudit_can_review}>
+		<{if $imaudit_reviewing}>
+			<{$smarty.const._MD_IMAUDIT_START_REVIEWING}> |
+		<{else}>
+			<a href="reviewing.php">Start reviewing</a> |
+		<{/if}>
+	<{/if}>
+	<{if $imaudit_on_review}>
+		<{$smarty.const._MD_IMAUDIT_ALL_REVIEWS}>
+	<{else}>
+		<a href="review.php"><{$smarty.const._MD_IMAUDIT_ALL_REVIEWS}></a>
+	<{/if}>
+	</div>
+</div>
+
+<div id="imaudit_submit" style="clear: both;"><{if $imaudit_showSubmitLink && $imaudit_userCanSubmit}><a href="<{$imaudit_url}>post.php?op=mod"><{$smarty.const._MI_IMAUDIT_POST_ADD}></a><{/if}></div>
