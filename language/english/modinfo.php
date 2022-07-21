@@ -24,6 +24,6 @@ define("_MI_IMAUDIT_BRANCHS", "Branches");
 // preferences
 define("_MI_IMAUDIT_REVIEWERGR", "Reviewers Groups");
 define("_MI_IMAUDIT_REVIEWERGRDSC", "Select the groups with access to review changeset.");
-define("_MI_IMAUDIT_LISTEMAIL", "List email address");
-define("_MI_IMAUDIT_LISTEMAILDSC", "When a changeset is reviewed with any status other then Approved, an email will be sent to this address with proper information.");
+//define("_MI_IMAUDIT_LISTEMAIL", "List email address");
+//define("_MI_IMAUDIT_LISTEMAILDSC", "When a changeset is reviewed with any status other then Approved, an email will be sent to this address with proper information.");
 ?>
