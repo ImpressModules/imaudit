@@ -22,12 +22,12 @@ define("_AM_IMAUDIT_FIRST_USE", "This is the first time you access this module. 
 
 // Changeset
 define("_AM_IMAUDIT_CHANGESETS", "Changesets");
-define("_AM_IMAUDIT_CHANGESETS_DSC", "All changesets in the module");
+//define("_AM_IMAUDIT_CHANGESETS_DSC", "All changesets in the module");
 define("_AM_IMAUDIT_CHANGESET_CREATE", "Add a changeset");
 define("_AM_IMAUDIT_CHANGESET", "Changeset");
-define("_AM_IMAUDIT_CHANGESET_CREATE_INFO", "Fill-out the following form to create a new changeset.");
+//define("_AM_IMAUDIT_CHANGESET_CREATE_INFO", "Fill-out the following form to create a new changeset.");
 define("_AM_IMAUDIT_CHANGESET_EDIT", "Edit this changeset");
-define("_AM_IMAUDIT_CHANGESET_EDIT_INFO", "Fill-out the following form in order to edit this changeset.");
+//define("_AM_IMAUDIT_CHANGESET_EDIT_INFO", "Fill-out the following form in order to edit this changeset.");
 define("_AM_IMAUDIT_CHANGESET_MODIFIED", "The changeset was successfully modified.");
 define("_AM_IMAUDIT_CHANGESET_CREATED", "The changeset has been successfully created.");
 define("_AM_IMAUDIT_CHANGESET_VIEW", "Changeset info");
@@ -35,12 +35,12 @@ define("_AM_IMAUDIT_CHANGESET_VIEW_DSC", "Here is the info about this changeset.
 
 // Review
 define("_AM_IMAUDIT_REVIEWS", "Reviews");
-define("_AM_IMAUDIT_REVIEWS_DSC", "All reviews in the module");
+//define("_AM_IMAUDIT_REVIEWS_DSC", "All reviews in the module");
 define("_AM_IMAUDIT_REVIEW_CREATE", "Add a review");
 define("_AM_IMAUDIT_REVIEW", "Review");
-define("_AM_IMAUDIT_REVIEW_CREATE_INFO", "Fill-out the following form to create a new review.");
+//define("_AM_IMAUDIT_REVIEW_CREATE_INFO", "Fill-out the following form to create a new review.");
 define("_AM_IMAUDIT_REVIEW_EDIT", "Edit this review");
-define("_AM_IMAUDIT_REVIEW_EDIT_INFO", "Fill-out the following form in order to edit this review.");
+//define("_AM_IMAUDIT_REVIEW_EDIT_INFO", "Fill-out the following form in order to edit this review.");
 define("_AM_IMAUDIT_REVIEW_MODIFIED", "The review was successfully modified.");
 define("_AM_IMAUDIT_REVIEW_CREATED", "The review has been successfully created.");
 define("_AM_IMAUDIT_REVIEW_VIEW", "Review info");
@@ -48,12 +48,12 @@ define("_AM_IMAUDIT_REVIEW_VIEW_DSC", "Here is the info about this review.");
 
 // Branch
 define("_AM_IMAUDIT_BRANCHS", "Branches");
-define("_AM_IMAUDIT_BRANCHS_DSC", "All branches in the module");
+//define("_AM_IMAUDIT_BRANCHS_DSC", "All branches in the module");
 define("_AM_IMAUDIT_BRANCH_CREATE", "Add a branch");
 define("_AM_IMAUDIT_BRANCH", "Branch");
-define("_AM_IMAUDIT_BRANCH_CREATE_INFO", "Fill-out the following form to create a new branch.");
+//define("_AM_IMAUDIT_BRANCH_CREATE_INFO", "Fill-out the following form to create a new branch.");
 define("_AM_IMAUDIT_BRANCH_EDIT", "Edit this branch");
-define("_AM_IMAUDIT_BRANCH_EDIT_INFO", "Fill-out the following form in order to edit this branch.");
+//define("_AM_IMAUDIT_BRANCH_EDIT_INFO", "Fill-out the following form in order to edit this branch.");
 define("_AM_IMAUDIT_BRANCH_MODIFIED", "The branch was successfully modified.");
 define("_AM_IMAUDIT_BRANCH_CREATED", "The branch has been successfully created.");
 define("_AM_IMAUDIT_BRANCH_VIEW", "Branch info");

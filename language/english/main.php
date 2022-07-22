@@ -18,7 +18,7 @@ define('_MD_IMAUDIT_ADMIN_PAGE', ':: Admin page ::');
 define("_MD_IMAUDIT_ALL_CHANGESETS", "All changesets");
 define("_MD_IMAUDIT_ALL_REVIEWS", "All reviews");
 define("_MD_IMAUDIT_REVIEW_CREATE", "Review this changeset");
-define("_MD_IMAUDIT_REVIEW_CREATE_INFO", "To approved this changeset, simply click the <b>Submit button</b>. If you believe there is a problem in this changeset, please write a comment and select a status.");
+define("_MD_IMAUDIT_REVIEW_CREATE_INFO", "To approve this changeset, simply click the <b>Submit button</b>. If you believe there is a problem in this changeset, please write a comment and select a status.");
 define("_MD_IMAUDIT_REVIEW_NOTIFICATION_INFO", "If the status you select is <b>Approved</b>, no notification email will be sent. However, any other status you select will trigger a notification email sent to <b>%s</b>.");
 define("_MD_IMAUDIT_REVIEW_CREATED", "The review has been successfully created.");
 define("_MD_IMAUDIT_REVIEW_MODIFIED", "The review was successfully modified.");
@@ -34,5 +34,5 @@ define("_MD_IMAUDIT_REVIEWING", "Reviewing");
 define("_MD_IMAUDIT_ALL_REVIEW", "All reviews");
 define("_MD_IMAUDIT_START_REVIEWING", "Start reviewing");
 
-define("_MD_IMAUDIT_GO_REVIEWING", "Click <a href='reviewing.php'>here</a> to start reviewing...");
+//define("_MD_IMAUDIT_GO_REVIEWING", "Click <a href='reviewing.php'>here</a> to start reviewing...");
 ?>
